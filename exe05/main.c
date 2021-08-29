@@ -6,7 +6,7 @@ int main() {
 
    scanf("%f %f %f %f", &a, &b, &c, &d);
 
-   media = a+b+c+d/4;
+   media = (a+b+c+d)/4;
 
    if(media >= 6){
      printf("NOTA = %.2f (APROVADO)", media);
