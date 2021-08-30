@@ -11,7 +11,7 @@ int main() {
    scanf("%d", &V);
    scanf("%d", &R);
    D = V * T;
-   L = D/T;
+   L = D/R;
 
    printf("R = %d", R);
    printf("\nV = %d", V);
